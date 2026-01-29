@@ -1,0 +1,14 @@
+fastapi[standard]       # framework web pour créer des API rapides
+python-jose[cryptography] # gérer JWT et sécurité
+passlib[bcrypt]         # hasher et vérifier des mots de passe
+python-multipart        # gérer les fichiers et formulaires multipart
+langchain               # biblio pour construire des apps avec LLM
+chromadb                # BD vectorielle pour embeddings
+sentence-transformers    # transformer du texte en vecteurs (embeddings)
+pypdf                   # lire et extraire le texte des PDF
+scikit-learn            # Machine Learning 
+numpy                   # calcul scientifique 
+pandas                  # manipulation et analyse de données
+mlflow                  # suivi et gestion des expériences ML
+pydantic                # validation et gestion des données
+python-dotenv           # charger des variables d'environnement depuis un .env
