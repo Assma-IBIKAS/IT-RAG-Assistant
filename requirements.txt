@@ -3,6 +3,7 @@ python-jose[cryptography] # gérer JWT et sécurité
 passlib[bcrypt]         # hasher et vérifier des mots de passe
 python-multipart        # gérer les fichiers et formulaires multipart
 langchain               # biblio pour construire des apps avec LLM
+langchain-community pypdf
 chromadb                # BD vectorielle pour embeddings
 sentence-transformers    # transformer du texte en vecteurs (embeddings)
 pypdf                   # lire et extraire le texte des PDF
