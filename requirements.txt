@@ -5,7 +5,8 @@ python-multipart        # gérer les fichiers et formulaires multipart
 langchain               # biblio pour construire des apps avec LLM
 langchain-community pypdf   # pour loader le pdf
 langchain_text_splitters    # pour splitter le pdf
-chromadb                # BD vectorielle pour embeddings
+langchain-chroma chromadb               # BD vectorielle pour embeddings
+langchain-huggingface     # pour l'embiddings
 sentence-transformers    # transformer du texte en vecteurs (embeddings)
 pypdf                   # lire et extraire le texte des PDF
 scikit-learn            # Machine Learning 
