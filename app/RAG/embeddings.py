@@ -18,7 +18,7 @@ def create_vectorstore(chunks):
     db_data = vectorstore.get(include = ['documents','embeddings','metadatas'])
 
     print("=====================================================================")
-    print(len(db_data['documents']))
+    print(f"Number of stored chunks : {len(db_data['documents'])}")
     print("=====================================================================")
     
     return db_data 
